@@ -22,6 +22,7 @@ function changeBgColor() {
 }
 
 function stopChangeBgColor() {
+    stylesBtn();
     clearInterval(timeId);
 
     stopBtn.setAttribute('disabled', 'true');
